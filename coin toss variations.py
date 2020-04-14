@@ -1,4 +1,4 @@
-#print all configurations for n coin tosses [TINY 6]
+print ('all configurations for n coin tosses [TINY 6]')
 
 def Recursion(List, Start, n):
     
