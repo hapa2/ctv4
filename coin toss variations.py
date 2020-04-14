@@ -3,7 +3,7 @@ print ('all variations for n coins tossed [TINY 6]')
 def Recursion(List, Start, n):
     
     if n==0:
-        print Start
+        print (Start)
         return
     
     for i in range (0,2):
@@ -23,5 +23,5 @@ from itertools import product
 
 P = product('HT', repeat=n)
 for i in list(P):
-    print i
+    print (i)
 
