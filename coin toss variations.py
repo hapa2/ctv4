@@ -1,4 +1,5 @@
 print ('all variations for n coins tossed [TINY 6]')
+print()
 
 def Recursion(List, Start, n):
     
@@ -12,7 +13,7 @@ def Recursion(List, Start, n):
 
 
 List = ["H", "T"]
-n = input("Input number of coin tosses: ")
+n = eval(input("Input number of coin tosses: "))
 Recursion(List, "", n)
 
 
